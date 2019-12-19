@@ -13,6 +13,8 @@ public interface BookRepository {
 
     Book update(Book book);
 
+    Book findBookById(Long id);
+
     Book findBookByTitle(String title);
 
     List<Book> findBooksByGenre(Genre genre);

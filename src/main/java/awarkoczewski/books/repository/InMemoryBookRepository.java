@@ -24,11 +24,13 @@ public class InMemoryBookRepository implements BookRepository {
         nextId = Long.valueOf(bookList.size()+1);
     }
 
+
+    //what if inserting movie is a duplicate?????
     @Override
     public Book insert(Book book) {
         book.setId(nextId);
         bookList.add(book);
-        return null;
+        return book;
     }
     //after deleted book, id stays empty, is not assigned to other book, is it LinkedList?
     @Override
@@ -47,6 +49,13 @@ public class InMemoryBookRepository implements BookRepository {
 
         bookToUpdate.setId(book.getId());
         return bookToUpdate;
+    }
+
+    @Override
+    public Book findBookById(Long id) {
+        return bookList.stream()
+                .filter(book -> book.getId().equals(id))
+                .findFirst().orElseThrow(() -> new BookNotFoundException("Book with given Id does not exist"));
     }
 
     @Override
