@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e0071c-910f-4837-95e9-f26e6965bafd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/awarkoczewski/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/awarkoczewski/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/awarkoczewski/books/BooksFacade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
@@ -31,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/awarkoczewski/books/model/Book.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/awarkoczewski/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/book/Popular.java" />
         <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/book/Popularity.java" />
         <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/books/Popularity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/books/model/Popularity.java" />
         <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/books/model/Blockbuster.java" />
         <option value="$PROJECT_DIR$/docs/BookRentalSpecification.text" />
@@ -168,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/books/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/books/repository/InMemoryBookRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/awarkoczewski/books/repository/InMemoryBookRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/awarkoczewski/App.java" />
       </list>
     </option>
   </component>
@@ -272,6 +271,14 @@
               <item name="BookRental" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookRental" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookRental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookRental" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,7 +337,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="awarkoczewski.App" />
+      <module name="BookRental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="awarkoczewski.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InMemoryBookRepositoryTest.insertProperlySavesANewMovieAtIndex5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookRental" />
       <extension name="coverage">
@@ -349,6 +369,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.InMemoryBookRepositoryTest.insertProperlySavesANewMovieAtIndex5" />
       </list>
     </recent_temporary>
@@ -368,7 +389,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -381,7 +401,7 @@
       <window_info id="simpleUML" order="8" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,13 +428,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/BookRental.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/awarkoczewski/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/BookRentalSpecification.text">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -511,6 +524,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/awarkoczewski/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
